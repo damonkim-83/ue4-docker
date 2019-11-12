@@ -9,7 +9,7 @@ ARG GIT_REPO=""
 ARG GIT_BRANCH=""
 
 # Retrieve the address for the host that will supply git credentials
-ARG HOST_ADDRESS_ARG=""
+ARG HOST_ADDRESS_ARG="DAMON-MDEV"
 ENV HOST_ADDRESS=${HOST_ADDRESS_ARG}
 
 # Retrieve the security token for communicating with the credential supplier
